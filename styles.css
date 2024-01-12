@@ -1,0 +1,341 @@
+/* -----------INDEX--------------- */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: var(--black);
+}
+:root{
+    --yellow:#EAB308;
+    --white: #F3F4F6;
+    --black: #020617;
+    --shadow:#1b244bbb;
+    --second-black: #111827;
+    --contrast: #FACC15;
+    --hover: indigo;
+
+}
+.main-header{
+    padding: 24px 0px 24px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--black);
+    font-family: Lexend Deca;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      
+        color: var(--white);
+}
+.main-header>h1>a{
+    text-decoration: none;
+    color: var(--white);
+}
+.main-header>h2 {
+font-size: 18px;
+}
+
+.main-header>h1>a:hover {
+    color: #0072FF;
+}
+a:hover .studNum {
+   
+    color: var(--hover);
+
+}
+.studNum{
+    color: var(--contrast);
+}
+main>div{
+    background-color: var(--second-black);
+}
+.hero {
+    padding: 30px 30px 60px 30px;
+    text-align: left;
+    justify-content: space-between;
+   width: 1037px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    
+    
+  
+
+}
+.second>img {
+    width: 300px;
+    box-shadow: 20px 20px var(--contrast);
+    border-radius: 20px;
+  
+
+}
+.first>h3{
+
+    color: #EAB308;
+    
+        font-family: Lexend Deca;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+
+        margin-top: 78px;
+}
+.first>p{
+    width: 465px;
+    color: #F3F4F6;
+        font-family: Lexend Deca;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 27px;
+
+                margin-bottom: 7px;
+        margin-top: 24px;
+  
+}
+blockquote{
+    color: #6B7280;
+    
+        font-family: Lexend Deca;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+                
+}
+.last{
+    font-family: Georgia, Times, serif;
+    margin-bottom: 24px;
+}
+
+.buttom{
+    width: 175px;
+    text-decoration: none;
+    display: flex;
+        padding: 8px 20px;
+        align-items: flex-start;
+
+    color: #000;
+    
+        font-family: Lexend Deca;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+
+    border-radius: 4px;
+        background: #FACC15;
+
+    transition: box-shadow 0.4s;
+    
+}
+.buttom:hover{
+    color: #0072FF;
+    box-shadow: 10px 10px var(--hover);
+    
+}
+
+footer{
+  
+
+    color: #FFF;
+        text-align: center;
+        font-family: Lexend Deca;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    color: var(--white);
+    background-color: var(--black);
+}
+.footer>img{
+    display: flex;
+
+}
+.footer{
+    padding: 30px;
+    margin: 0 auto;
+    width: 1037px;
+    display: flex;
+        flex-direction: row;
+    
+        justify-content: space-between;
+        align-items: center;
+}
+.container {
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+
+} 
+.container>h2{
+    color: #EAB308;
+    
+        font-family: Lexend Deca;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+}
+
+.facts {
+    width: 100%;
+    padding: 15px;
+    color: #eab20897;
+    
+        font-family: Lexend Deca;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+  
+}
+.facts-width{
+    margin: 0 auto;
+    width: 1037px;
+  
+}
+.facts-width>h3{
+    margin-top: 25px;
+}
+.facts-width>ul{
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+    color: #6B7280;
+    
+        font-family: Lexend Deca;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    list-style: none;
+}
+.facts-width>ul>li{
+    padding: 15px;
+    width: 400px;
+    background-color: var(--black);
+    border-radius: 10px;
+    box-shadow: 5px 5px var(--shadow);
+}
+.facts-width>ul>li:hover{
+    color: #23b2ea;
+}
+
+.films {
+   background-color: var(--black);
+    width: 100%;
+        padding: 15px;
+        color: #eab20897;
+    
+        font-family: Lexend Deca;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+ 
+}
+.films-width{
+    margin: 0 auto;
+        width: 1037px;
+
+}
+.films-width>h3{
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+.films-width>ol{
+   
+    margin-top: 40px;
+        margin-bottom: 40px;
+    
+        display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+
+    color: var(--white);
+    
+        font-family: Lexend Deca;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+        list-style: none;
+}
+.films-width>ol>li{
+    padding: 20px;
+
+    background-color: var(--second-black);
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    width: 350px;
+    
+}
+.img-film{
+    box-shadow: 10px 10px var(--shadow);
+    height: 428px;
+    width: 300px;
+    transition: box-shadow 0.4s;
+}
+.img-film:hover{
+    box-shadow: 10px 10px #23b2ea;
+}
+
+.websites {
+
+    width: 100%;
+        padding: 15px;
+        color: #eab20897;
+    
+        font-family: Lexend Deca;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+
+}
+.websites-width{
+    padding: 20px;
+    margin: 0 auto;
+        width: 1037px;
+    
+}
+.websites-width>ul{
+    color: #6B7280;
+
+    display: flex;
+    gap: 60px;
+    
+    justify-content: center;
+        font-family: Lexend Deca;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+        list-style: none;
+}
+.websites-logo{
+    transition: transform 0.4s;
+    width: 50px;
+}
+.websites-logo:hover{
+    transform: scale(1.3);
+}
